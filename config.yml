@@ -1,0 +1,7 @@
+exporter_host: 0.0.0.0
+exporter_port: 9127
+
+pgbouncers:
+  - dsn: "postgres://postgres:zRqdRIzBZCDEpmSEJSDyCjCijGIqGmus@shortline.proxy.rlwy.net:48035/pgbouncer?sslmode=disable"
+    labels:
+      instance: "worker"
